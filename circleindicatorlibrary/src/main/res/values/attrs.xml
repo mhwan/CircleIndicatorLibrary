@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleIndicator">
+        <attr name="circle_size" format="dimension" />
+        <attr name="circle_count" format="integer" />
+        <attr name="circle_margin" format="dimension" />
+        <attr name="select_circle_resource" format="reference" />
+        <attr name="animate_time" format="integer" />
+        <attr name="non_select_circle_resource" format="reference" />
+    </declare-styleable>
+</resources>

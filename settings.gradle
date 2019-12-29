@@ -1,0 +1,2 @@
+include ':app', ':circleindicatorlibrary'
+rootProject.name='CircleIndicatorDemo'
