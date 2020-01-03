@@ -56,4 +56,26 @@ then, you put `app:select_circle_resource="@drawable/on_indicator"`, `app:non_se
    
     `app:circle_margin="6dp"`
 
+###### Step 4. Add this java code in your viewpager's pageChangeListener (OnPageChangeListener)
+
+    `circleindicator.selectDot(i);`
     
+- java
+    
+    
+		viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int i, float v, int i1) {
+
+            }
+
+            @Override
+            public void onPageSelected(int i) {
+                circleindicator.selectDot(i);
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int i) {
+
+            }
+        });
